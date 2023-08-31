@@ -12,6 +12,7 @@ import { LayoutsComponent } from './layouts/layouts.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { SidebarComponent } from './layouts/sidebar/sidebar.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SidebarComponent } from './layouts/sidebar/sidebar.component';
     NavbarComponent,
     FooterComponent,
     SidebarComponent,
+    NotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
